@@ -1,0 +1,23 @@
+body{
+    padding-left: 20%;
+    padding-right: 40%;
+    padding-top: 20%;
+    font-size:larger;
+    background-color: rgb(198, 5, 236);
+
+}
+.clock{
+    border:none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;    background-color: #1e90ff;
+    text-align: center;
+    font-size: 56px;
+
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.clock:hover{
+    box-shadow: 0 0 20px #1ee704ef, 0 0 40px #0df80de0 0 0 60px rgba(56, 255, 30, 0.932);
+}

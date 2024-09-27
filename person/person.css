@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(124, 124, 228);
+}
+#person{
+    width: 20px;
+    height: 20px;
+    border-radius:50% ;
+    background-color: rgb(26, 11, 11);
+    position: relative;
+    margin: 20px;
+}
+#person::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background-color: rgb(54, 247, 6);
+    top: 22px;
+    left: -10px;
+    border-radius: 50% 50% 0% 0%;
+}
